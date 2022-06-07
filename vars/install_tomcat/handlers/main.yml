@@ -1,0 +1,5 @@
+- name: Start and Enable Tomcat on sever
+      systemd:
+        name: tomcat
+        state: started
+        daemon_reload: true
